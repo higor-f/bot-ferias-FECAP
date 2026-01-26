@@ -15,14 +15,14 @@ const NOME_FACULDADE = 'FECAP';
 const PERIODOS_FERIAS = [
   {
     nome: 'férias de meio de ano',
-    inicio: { mes: 6, dia: 15 },  // 15 de julho **nao configurado**
-    fim:    { mes: 7, dia: 1 },   // 1 de agosto (volta às aulas) **nao configurado**
+    inicio: { mes: 5, dia: 13 },  // 13 de junho **configurado**
+    fim:    { mes: 7, dia: 3 },   // 3 de agosto (volta às aulas) **configurado**
     cruzaAno: false,
   },
   {
     nome: 'férias de fim de ano',
     inicio: { mes: 11, dia: 5 }, // 5 de dezembro
-    fim:    { mes: 0, dia: 26 },  // 26 de janeiro (do ano seguinte)
+    fim:    { mes: 1, dia: 1 },  // 01 de fevereiro (do ano seguinte)
     cruzaAno: true,
   },
 ];
